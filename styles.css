@@ -1,9 +1,14 @@
-body, html {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body, html {
+
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background: #00152b;
 }
 
 #image-container {
@@ -15,7 +20,9 @@ body, html {
 }
 
 #slider-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    object-fit:contain ;
+    display: block;
+
 }
